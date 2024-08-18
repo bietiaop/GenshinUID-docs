@@ -17,12 +17,12 @@ jobs:
 
       - name: 🚧 Install dependencies
         run: |
-          npm install -g pnpm
-          pnpm install
+          npm install -g yarn
+          yarn install
 
       - name: 🚀 Build VitePress application
         run: |
-          pnpm run build
+          yarn run build
 
       - name: 🎉 Commit and push changes to gh-pages branch
         uses: peaceiris/actions-gh-pages@v3
