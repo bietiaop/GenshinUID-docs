@@ -1,4 +1,4 @@
-import process from 'node:process'
+import process from 'process'
 import { defineConfig } from 'vitepress'
 import { withPwa } from '@vite-pwa/vitepress'
 import { nodePolyfills } from 'vite-plugin-node-polyfills'
