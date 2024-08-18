@@ -21,6 +21,9 @@ contributors: ["Wuyi无疑"]
 [参考](https://github.com/KimigaiiWuyi/WzryUID/blob/main/WzryUID/utils/database/models.py)
 
 ```python
+from typing import Optional
+from sqlmodel import Field
+
 from gsuid_core.utils.database.base_models import Bind, User
 
 class WzryBind(Bind, table=True):
@@ -75,4 +78,46 @@ class WzryUseradmin(GsAdminModel):
 
     # 配置管理模型
     model = WzryUser
+```
+
+#### 额外、继承Base_Model
+
+::: tip
+
+💡在上面从`gsuid_core.utils.database.base_models` 继承基础的 `Bind`,  `User`，`Push`，`Cache`表时，你可能会注意到一丝命名风格不舒服， 比如：
+
+- 默认会有几列预设的列名，例如`uid`, `cookie`等等。
+- 默认的方法名称为`select_data_by_uid`等等。
+
+这是由于预设的四大表是基于游戏工具的视角设计，包含了大多数游戏工具应有的列和方法，但如果你写的插件和游戏类无关，那么这些列和默认方法就会比较碍眼。
+
+GsCore当然也提供了更上游的基类以供继承，下面是具体代码。
+
+:::
+
+![image-20240818182411857](./../public/PluginsDataBase/image-20240818182411857.png)
+
+
+```python
+from typing import Optional
+
+from sqlmodel import Field
+
+from gsuid_core.utils.database.base_models import BaseModel
+
+# 创建类时传参带上`table=True`才是建表，否则只是Python内部的类继承，不会实际建立表格
+class MyTable(BaseModel, table=True):
+    # 注意，这里的列名无需新增id等基类已经有的列，只需要根据自己实际需求新增列名即可
+    # 具体基类有什么列可以点进BaseModel类去查看
+    city: Optional[str] = Field(default=None, title='城市')
+
+    # 示例一个类方法
+    @classmethod
+    async def get_user_city(
+        cls,
+        user_id: str,
+    ) -> Optional[str]:
+        '''根据传入`user_id`，判定是否绑定城市'''
+        data = await cls.select_data(user_id)
+        return data.city if data else None
 ```

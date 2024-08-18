@@ -1,11 +1,15 @@
 import process from 'node:process'
 import { defineConfig } from 'vitepress'
 import { withPwa } from '@vite-pwa/vitepress'
+import { nodePolyfills } from 'vite-plugin-node-polyfills'
 import { description, docsVersion, github, keywords, name, site } from './meta'
 import { pwa } from './plugins/pwa'
 import sidebar from './sidebar'
 
 export default withPwa(defineConfig({
+  plugins: [
+    nodePolyfills(),
+  ],
   pwa,
   outDir: '../dist',
   title: name,
@@ -65,7 +69,8 @@ export default withPwa(defineConfig({
           { text: '🏫 BlueArchiveUID', link: 'https://github.com/KimigaiiWuyi/BlueArchiveUID' },
           { text: '🀄 MajsoulUID', link: 'https://github.com/KimigaiiWuyi/MajsoulUID' },
           { text: '🦸‍♂️ LOLegendsUID', link: 'https://github.com/KimigaiiWuyi/LOLegendsUID' },
-          { text: '👁️ ZZZeroUID', link: 'https://github.com/ZZZure/ZZZeroUID' },
+          { text: '🧿 ZZZeroUID', link: 'https://github.com/ZZZure/ZZZeroUID' },
+          { text: '⏩ 更多插件', link: '/InstallPlugins/PluginsList' },
         ],
       },
       {

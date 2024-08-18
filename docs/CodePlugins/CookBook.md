@@ -463,6 +463,18 @@ async def bind_city(bot: Bot, ev: Event):
 
 :::
 
+:::warning
+
+💡由于默认的`Bind`, `User`等基类表带有强烈的游戏风格命名。
+
+例如`uid`, `get_data_by_uid`等等...
+
+如果你不想使用默认的基类表，也可以自己创建表，并编写自己基类的静态方法！
+
+示例在[这里](./PluginsDataBase)，往下拉的【额外、继承Base_Model】章节中！
+
+:::
+
 5. 我们紧接着完成`tq删除绑定城市`，代码如下
 
 ```python
