@@ -1,16 +1,16 @@
 /* 引入自定义字体 */
 @font-face {
   font-family: 'MiSans';
-  src: url('/pubilc/font/MiSans-Thin.woff2') format('woff2'),
-    url('/pubilc/font/MiSans-Thin.woff') format('woff');
+  src: url('/MiSans-Thin.woff2') format('woff2'),
+    url('/MiSans-Thin.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'Fira Code';
-  src: url('/pubilc/font/FiraCode-SemiBold.woff2') format('woff2'),
-    url('/pubilc/font/FiraCode-SemiBold.woff') format('woff');
+  src: url('/FiraCode-SemiBold.woff2') format('woff2'),
+    url('/FiraCode-SemiBold.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
