@@ -15,7 +15,7 @@ function goToPage(url: string) {
     >
       <div class="icon">
         <img
-          :src="item.cover || '/icon.png'"
+          :src="item.cover || item.avatar"
           alt=""
         >
       </div>
@@ -178,7 +178,7 @@ a {
   cursor: pointer;
   transition: transform 0.4s ease;
   transform: scale(1.05);
-  background-color: rgb(245, 25, 25);
+  background-color: rgba(251, 68, 68, 0.8);
   backdrop-filter: blur(10px);
 }
 
