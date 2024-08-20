@@ -3,6 +3,7 @@
     "plugin_chat": {
       "link": "https://github.com/wangyu1997/gsuidcore_plugin_chat",
       "avatar": "https://github.com/wangyu1997.png",
+      "cover": "",
       "branch": "main",
       "type": "tip",
       "content": "普通",
@@ -11,6 +12,7 @@
     "StarRailUID": {
       "link": "https://github.com/baiqwerdvd/StarRailUID",
       "avatar": "https://github.com/baiqwerdvd.png",
+      "cover": "https://s2.loli.net/2023/04/30/kvZgaVLo5fATI6h.png",
       "branch": "master",
       "type": "tip",
       "content": "普通",
@@ -19,6 +21,7 @@
     "GenshinUID": {
       "link": "https://github.com/KimigaiiWuyi/GenshinUID",
       "avatar": "https://github.com/KimigaiiWuyi.png",
+      "cover": "https://s2.loli.net/2023/03/25/bareSdYcsmRPOyZ.png",
       "branch": "main",
       "type": "tip",
       "content": "普通",
@@ -27,6 +30,7 @@
     "mys_qrlogin": {
       "link": "https://github.com/RBAmeto/gsuidcore_mys_qrlogin",
       "avatar": "https://github.com/RBAmeto.png",
+      "cover": "",
       "branch": "main",
       "type": "danger",
       "content": "危险",
@@ -35,6 +39,7 @@
     "honkai_sign": {
       "link": "https://github.com/RBAmeto/gsuidcore_honkai_sign",
       "avatar": "https://github.com/RBAmeto.png",
+      "cover": "",
       "branch": "main",
       "type": "tip",
       "content": "普通",
@@ -43,6 +48,7 @@
     "maimai_plugin": {
       "link": "https://github.com/Agnes4m/maimai_plugin",
       "avatar": "https://github.com/Agnes4m.png",
+      "cover": "https://s2.loli.net/2024/08/20/IlrxcWVp4ZGqAzR.png",
       "branch": "gsuid_core",
       "type": "tip",
       "content": "普通",
@@ -51,6 +57,7 @@
     "WzryUID": {
       "link": "https://github.com/KimigaiiWuyi/WzryUID",
       "avatar": "https://github.com/KimigaiiWuyi.png",
+      "cover": "https://s2.loli.net/2024/01/07/axQ4wLcNHyO9RUr.png",
       "branch": "main",
       "type": "tip",
       "content": "普通",
@@ -59,6 +66,7 @@
     "ArknightsUID": {
       "link": "https://github.com/baiqwerdvd/ArknightsUID",
       "avatar": "https://github.com/baiqwerdvd.png",
+      "cover": "https://s2.loli.net/2023/10/30/eFZmkfrni9bBjdV.png",
       "branch": "main",
       "type": "tip",
       "content": "普通",
@@ -67,6 +75,7 @@
     "BlueArchiveUID": {
       "link": "https://github.com/KimigaiiWuyi/BlueArchiveUID",
       "avatar": "https://github.com/KimigaiiWuyi.png",
+      "cover": "https://s2.loli.net/2023/09/23/bVKDjUXpJ8onLEc.png",
       "branch": "main",
       "type": "tip",
       "content": "普通",
@@ -75,6 +84,7 @@
     "PsyTest": {
       "link": "https://github.com/KimigaiiWuyi/gsuidcore_psytest",
       "avatar": "https://github.com/KimigaiiWuyi.png",
+      "cover": "https://s2.loli.net/2023/10/05/GHjJNWBP4nezgIU.png",
       "branch": "main",
       "type": "tip",
       "content": "普通",
@@ -83,6 +93,7 @@
     "pokemon": {
       "link": "https://github.com/jiluoQAQ/Pokemon",
       "avatar": "https://github.com/jiluoQAQ.png",
+      "cover": "https://s2.loli.net/2023/11/03/mW1ykVxItGRSqjN.png",
       "branch": "main",
       "type": "tip",
       "content": "普通",
@@ -91,6 +102,7 @@
     "MajsoulUID": {
       "link": "https://github.com/KimigaiiWuyi/MajsoulUID",
       "avatar": "https://github.com/KimigaiiWuyi.png",
+      "cover": "https://s11.ax1x.com/2024/01/07/pFSmJdf.png",
       "branch": "main",
       "type": "tip",
       "content": "普通",
@@ -99,6 +111,7 @@
     "LOLegendsUID": {
       "link": "https://github.com/KimigaiiWuyi/LOLegendsUID",
       "avatar": "https://github.com/KimigaiiWuyi.png",
+      "cover": "https://s11.ax1x.com/2024/01/16/pFFC129.png",
       "branch": "main",
       "type": "tip",
       "content": "普通",
@@ -107,6 +120,7 @@
     "CS2UID": {
       "link": "https://github.com/Agnes4m/CS2UID",
       "avatar": "https://github.com/Agnes4m.png",
+      "cover": "https://s2.loli.net/2024/08/20/4CwrKpM1g2tUYWL.jpg",
       "branch": "main",
       "type": "tip",
       "content": "普通",
@@ -115,6 +129,7 @@
     "ZZZeroUID": {
       "link": "https://github.com/ZZZure/ZZZeroUID",
       "avatar": "https://avatars.githubusercontent.com/u/167495548",
+      "cover": "https://s2.loli.net/2024/08/20/9zQ8Ac4vFTKkfNw.png",
       "branch": "master",
       "type": "tip",
       "content": "普通",
@@ -123,6 +138,7 @@
     "WutheringWavesUID": {
       "link": "https://github.com/tyql688/WutheringWavesUID",
       "avatar": "https://github.com/tyql688.png",
+      "cover": "https://s2.loli.net/2024/08/20/m4D3cslY6R1SM2X.png",
       "branch": "master",
       "type": "tip",
       "content": "普通",
