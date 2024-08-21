@@ -175,7 +175,7 @@ a {
 
 /* hover */
 .card:hover {
-  cursor: pointer;
+  cursor: default !important;
   transition: transform 0.4s ease;
   transform: scale(1.05);
   background-color: rgba(251, 68, 68, 0.8);
